@@ -153,13 +153,6 @@ public class Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public Icon getIcon() {
-        ImageIcon img = new ImageIcon("icon");
-                panel3.setIconImage(img.getImage());
-        return jButton1.getIcon();
-    }
-   
-
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
