@@ -4,10 +4,11 @@
  * and open the template in the editor.
  */
 package payroll.ui;
-
-import java.util.Objects;
-import javax.swing.Icon;
+import java.awt.HeadlessException;
 import javax.swing.ImageIcon;
+import java.awt.LayoutManager;
+import java.awt.Panel;
+
 
 /**
  *
@@ -20,6 +21,7 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+        
     }
 
     /**
@@ -101,6 +103,8 @@ public class Login extends javax.swing.JFrame {
             panel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 77, Short.MAX_VALUE)
         );
+
+        panel3.add((LayoutManager) icon);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setText("Login");
@@ -196,10 +200,30 @@ public class Login extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        panel3.getAccessibleContext().setAccessibleName("icon");
+        panel3.getAccessibleContext().setAccessibleName("");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private ImageIcon icon = new ImageIcon("icon.png", "random image");
+
+    public ImageIcon getIcon(String path, String description) {
+         java.net.URL imgURL = getClass().getResource(path);
+            if (imgURL != null) {
+                return new ImageIcon(imgURL, description);
+            } else {
+                System.err.println("Couldn't find file: " + path);
+                return null;
+            }
+    }
+
+    public void setIcon(ImageIcon icon) {
+        this.icon = icon;
+    }
+
+    public Login(Panel panel3) throws HeadlessException {
+        this.panel3 = panel3;
+    }
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
@@ -209,6 +233,14 @@ public class Login extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+//    public Panel getPanel3() {
+//        return panel3;
+//    }
+//
+//    public void setPanel3(Panel panel3) {
+//        this.panel3 = panel3;
+//    }
+
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem2ActionPerformed
@@ -216,6 +248,7 @@ public class Login extends javax.swing.JFrame {
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem3ActionPerformed
+
 
     /**
      * @param args the command line arguments
@@ -246,9 +279,23 @@ public class Login extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
+                
+ //               ImageIcon icon = createImageIcon("icon.png", "Some random icon i got from the web");
+//                panel3.set(Panel((LayoutManager) icon));
                 new Login().setVisible(true);
             }
+            
+//            private ImageIcon createImageIcon(String path, String description) {
+//                    java.net.URL imgURL = getClass().getResource(path);
+//                        if (imgURL != null) {
+//                            return new ImageIcon(imgURL, description);
+//                        } else {
+//                            System.err.println("Couldn't find file: " + path);
+//                            return null;
+//                        }
+//            }
         });
     }
 
