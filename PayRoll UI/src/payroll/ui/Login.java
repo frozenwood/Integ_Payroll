@@ -92,7 +92,7 @@ public class Login extends javax.swing.JFrame {
             .addGap(0, 208, Short.MAX_VALUE)
         );
 
-        panel3.add((LayoutManager) icon);
+        //panel3.add((LayoutManager) icon);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setText("Login");

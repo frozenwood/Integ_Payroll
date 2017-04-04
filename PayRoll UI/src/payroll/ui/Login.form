@@ -133,7 +133,7 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
       </AccessibilityProperties>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="panel3.add((LayoutManager) icon);"/>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="//panel3.add((LayoutManager) icon);"/>
       </AuxValues>
 
       <Layout>

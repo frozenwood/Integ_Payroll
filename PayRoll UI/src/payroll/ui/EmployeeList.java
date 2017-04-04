@@ -75,17 +75,17 @@ public class EmployeeList extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(2150890), "Tomines, Christine", "Designer", "F", "09000000000", "Camp 7"},
-                { new Integer(2150417), "Maganes, Earvin", "Quality Control", "M", "09000000001", "Town"},
-                {null, "Cabantac, Emman", "Researcher", "M", "09000000002", "Town"},
-                { new Integer(2151872), "Abellera, Karl", "Programmer", "M", "09000000003", "Aurora Hill"}
+                {"01", "Tomines, Christine", "Designer", "F", "09000000000", "Camp 7"},
+                {"02", "Maganes, Earvin", "Quality Control", "M", "09000000001", "Town"},
+                {"03", "Cabantac, Emman", "Researcher", "M", "09000000002", "Town"},
+                {"04", "Abellera, Karl", "Programmer", "M", "09000000003", "Aurora Hill"}
             },
             new String [] {
                 "Employee ID", "Employee Name", "Position", "Sex", "Cellphone", "Address"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {
