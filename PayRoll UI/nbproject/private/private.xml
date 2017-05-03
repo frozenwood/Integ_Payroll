@@ -3,26 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/TaxWithheldTable.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PayrollTab.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PagibigEmp.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/AddEmployee.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PhilHealthEmp.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/ADefault.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/EmProfileView.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PayslipEmp.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/EmProfile.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PayRollUI.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/Login.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/TaxEmp.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PAGIBIGTable.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/SSSTable.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/ComputePay.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PHILHEALTHTable.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/Logout.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/EmployeeList.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/WithholdingTaxTable.java</file>
-            <file>file:/C:/Users/Steven/Documents/Christine/Integ_Payroll/PayRoll%20UI/src/payroll/ui/SSSEmp.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/EmProfile.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PayRollUI.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/Login.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/SSSEmp.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/TaxEmp.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/TaxWithheldTable.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PhilHealthEmp.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/EmProfileView.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/PayslipEmp.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/SSSTable.java</file>
+            <file>file:/C:/Users/s326lab/Desktop/Integ_Payroll/PayRoll%20UI/src/payroll/ui/ADefault.java</file>
         </group>
     </open-files>
 </project-private>
