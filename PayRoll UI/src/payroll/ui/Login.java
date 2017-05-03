@@ -46,8 +46,10 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 51, 0));
-        setSize(1000,800);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setMaximumSize(new java.awt.Dimension(1000, 350));
+        setPreferredSize(new java.awt.Dimension(1000, 350));
+        setSize(1000,350);
+        setType(java.awt.Window.Type.UTILITY);
 
         panel1.setBackground(new java.awt.Color(0, 153, 153));
 
@@ -60,16 +62,14 @@ public class Login extends javax.swing.JFrame {
         panel1Layout.setHorizontalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel1Layout.createSequentialGroup()
-                .addGap(149, 149, 149)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(441, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panel1Layout.setVerticalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 91, Short.MAX_VALUE)
         );
-
-        getContentPane().add(panel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         panel2.setBackground(new java.awt.Color(0, 204, 204));
 
@@ -77,14 +77,12 @@ public class Login extends javax.swing.JFrame {
         panel2.setLayout(panel2Layout);
         panel2Layout.setHorizontalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1000, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         panel2Layout.setVerticalGroup(
             panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 16, Short.MAX_VALUE)
         );
-
-        getContentPane().add(panel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 98, 1000, -1));
 
         panel3.setBackground(new java.awt.Color(0, 153, 153));
 
@@ -133,7 +131,27 @@ public class Login extends javax.swing.JFrame {
                 .addGap(29, 29, 29))
         );
 
-        getContentPane().add(panel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 300, 200));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(150, Short.MAX_VALUE)
+                .addComponent(panel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(150, Short.MAX_VALUE))
+            .addComponent(panel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(panel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36)
+                .addComponent(panel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(100, Short.MAX_VALUE))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
